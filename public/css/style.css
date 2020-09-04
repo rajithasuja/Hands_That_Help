@@ -6,14 +6,12 @@
 #cont{
   margin-top: 20px;
 }
-.carousel {
-  background: none; }
-  .carousel .carousel-item {
-    height: 700px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      min-height: 700px; }
-
+.carousel-inner > .item > img-fluid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
 #h2e{
   color: #AED6F1;
 }
