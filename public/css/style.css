@@ -1,10 +1,22 @@
-
+nav{
+  font-family: 'Roboto', sans-serif !important;
+}
+#nab{
+  color: #E0C29A !important;
+}
 #nabi{
-  height: 40px;
+  height: 70px;
+  width: auto;
   padding: 3px;
+  float: left;
+  margin-left: 0;
 }
 #cont{
   margin-top: 20px;
+}
+.he{
+  padding-left: 100px;
+  margin-top: 0;
 }
 .carousel-inner > .item > img-fluid {
   position: absolute;
@@ -28,14 +40,15 @@
   padding: 20px;
 }
 .navbar-brand{
-  font-family:'Russo One', sans-serif;
+  font-family:'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
 
 }
 .nav-link{
-  font-family: 'Caveat', cursive;
-  font-size: 1.2rem;
+  font-family: 'Russo One', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
 }
 .nav-item{
   padding: 0 12px;
@@ -62,22 +75,21 @@
   border-radius: 15px;
 }
 .seco{
-  background: #3081AD;
+  background: #2E2D2D;
+  color: #fff;
   border-radius: 20px;
   margin: 0 40px;
   padding: 15px 0;
 }
 .jumbotron{
-  font-family: 'Yesteryear', cursive;
+  font-family: 'PT Serif', serif;
 }
 .sec1{
   padding: 50px;
   margin-right: 0;
 }
 .sec4{
-  background: url('https://www.pngitem.com/pimgs/m/134-1342342_circle-contact-us-icon-hd-png-download.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #fff;
 }
 .lay{
   margin: 0 30px;
@@ -96,4 +108,23 @@ body{
 #in{
   background: transparent;
   color: #fff;
+}
+.social-menu{
+  top:50%;
+  right: 0;
+  transform: translateY(-50%);
+  position: fixed;
+  z-index: 100;
+}
+.social-menu ul{
+  padding: initial;
+}
+.social-menu ul li{
+  height: 50px;
+  width: 50px;
+  list-style-type: none;
+  padding-left: 12px;
+  padding-top: 6px;
+  margin-top: 5px;
+  background-color: none;
 }

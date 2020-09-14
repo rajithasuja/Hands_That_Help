@@ -8,25 +8,42 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="icon" href="public/images/favicon.ico">
 
     <title>What we do</title>
+    <style media="screen">
+    /* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+    </style>
   </head>
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#343A3A !important;">
-      <a class="navbar-brand" id="nab" href="welcome.html"><img id="nabi" src="public/images/logo.jpeg"<h2>Hands That Help</h2></a>
+      <a class="navbar-brand" id="nab" href="welcome.html" data-interval="2000"><img id="nabi" src="public/images/logo.png"<h2>Hands That<br><div class="he"> Help</div></h2></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="welcome.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="welcome.html">HOME<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About
+          ABOUT
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="about.html">About Us</a>
@@ -35,15 +52,15 @@
         </div>
       </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery.html">GALLERY</a>
           </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
+          <a class="nav-link" href="contact.html">CONTACT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="donate.php">Donate Now</a>
+          <a class="nav-link" href="donate.php" style="background:#E0C29A!important; color:#000!important;">DONATE NOW</a>
         </li>
 
       </ul>
@@ -52,9 +69,9 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-6 col-md-12 col-lg-12">
+        <div class="col-sm-6 col-md-11 col-lg-11">
     <div class="jumbotron jumbotron-fluid">
-    <h1 class="display-4 text-center" style="padding: 15px 0; font-family: 'Nothing You Could Do' !important, cursive;">What we do</h1>
+    <h1 class="display-4 text-center" style="padding: 15px 0; margin-top: 50px;">What we do</h1>
     <hr>
     <br>
     <p class="lead text-center">Many in our neighborhood lie on the roads with hardly any clothes to wear and extreme poverty. Sometime we spend excess on ourselves and may be on pets too, but who will extend help to such- ‘made by God like us for it’s the same flesh and blood’.
@@ -62,23 +79,32 @@ You can make a difference to such by collecting clothes and donating. This can a
 Be a part of this movement and spread the word to say the least.</p>
 <br>
 <div class="text-center">
-<img src="public/images/s7.jpeg" class="rounded" alt="abt-us-pic" style="height: 400px; width: 400px; margin: 10px 0; ">
+<img src="public/images/s7.jpeg" class="rounded" id="res"alt="abt-us-pic"  style="margin: 10px 0; width:100%; max-width: 500px">
 </div>
 <br>
-<p class="lead text-center">We try to reach out as many people as possible and ask if they could donate us some clothes. Every sunday, we as a team reach out the needy and give them the collected clothes we received from the donors. We try to inspire others who have an opportunity to reach out the needy. We also organize campaigns to collect and distribute old clothes.</p>
-<h5 class="text-center">Even one pair of your old clothes could be of huge help for the needy.</h5>
+<p class="lead text-center">We try to reach out as many people as possible and ask if they could donate us some clothes. Every sunday, we as a team reach out the needy and give them the collected clothes we received from the donors. So far, we have successfully distributed about 1200 clothes with more than 600-700 beneficiaries. We plan to send clothing North-east and some orpanages and oldage homes in Delhi-NCR. We try to inspire others who have an opportunity to reach out the needy. We also organize campaigns to collect and distribute old clothes.</p>
+<h4 class="text-center"><b>Even one pair of your old clothes could be of huge help for the needy.</b></h4>
 <br>
 <div class="seco">
 <h3 class="text-center">You don't need a reason to help🤝🏼, all you need is a good heart💓. Do you have one?</h3>
 <div class="col-md-12 text-center">
-  <a href="donate.php" style="margin: 15px 0; padding-bottom: 10px;" class="btn btn-dark btn-lg active" role="button" aria-pressed="true">Donate Now</a>
+  <a href="donate.php" style="margin: 15px 0; padding-bottom: 10px;" class="btn btn-info active" role="button" aria-pressed="true">Donate Now</a>
 </div>
 </div>
+  </div>
+  <div class="col-sm-6 col-md-1 col-lg-1">
+    <div class="social-menu">
+      <ul>
+        <li><a href="https://api.whatsapp.com/send?phone=919516523558&text=&source=&data=&app_absent="target="_blank"><i class="fab fa-whatsapp"style="color: green;font-size:36px;" ></i></a></li>
+        <li><a href="https://instagram.com/hands_thathelp?igshid=1qzea17d65avj"target="_blank"><i class="fab fa-instagram" style="color: #000;font-size:36px"></i></a></li>
+        <li><a href="https://www.facebook.com/padebettu.akhilesh"target="_blank"><i class="fab fa-facebook" style="font-size:36px;" ></i></a></li>
+      </ul>
+    </div>
   </div>
 </div>
 </div>
 </div>
-<footer class="text-center">Copyright (c) 2020 Copyright Holder All Rights Reserved.</footer>
+<footer class="text-center">Copyright (c) 2020 Hnads That Help All Rights Reserved.</footer>
 
 
 

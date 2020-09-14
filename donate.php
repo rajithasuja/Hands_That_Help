@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="public/css/style.css">
     <link rel="icon" href="public/images/favicon.ico">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 
 
     <title>Donate</title>
@@ -16,18 +17,18 @@
 
     <section class="sec5">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#343A3A !important;">
-      <a class="navbar-brand" id="nab" href="welcome.html"><img id="nabi" src="public/images/logo.jpeg"<h2>Hands That Help</h2></a>
+      <a class="navbar-brand" id="nab" href="welcome.html" data-interval="2000"><img id="nabi" src="public/images/logo.png"<h2>Hands That<br><div class="he"> Help</div></h2></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="welcome.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="welcome.html">HOME<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About
+          ABOUT
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="about.html">About Us</a>
@@ -36,15 +37,15 @@
         </div>
       </li>
           <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="gallery.html">GALLERY</a>
           </li>
       </ul>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Us</a>
+          <a class="nav-link" href="contact.html">CONTACT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="donate.php">Donate Now</a>
+          <a class="nav-link" href="donate.php" style="background:#E0C29A!important; color:#000!important;">DONATE NOW</a>
         </li>
 
       </ul>
@@ -154,6 +155,13 @@ alert("You have registered successfully .We will contact you shortly");
 
        </form>
       </div>
+      </div>
+      <div class="social-menu">
+        <ul>
+          <li><a href="https://api.whatsapp.com/send?phone=919516523558&text=&source=&data=&app_absent=" target="_blank"><i class="fab fa-whatsapp"style="color: green;font-size:36px;" ></i></a></li>
+          <li><a href="https://instagram.com/hands_thathelp?igshid=1qzea17d65avj" target="_blank"><i class="fab fa-instagram" style="color: #000;font-size:36px"></i></a></li>
+          <li><a href="https://www.facebook.com/padebettu.akhilesh" target="_blank"><i class="fab fa-facebook" style="font-size:36px;" ></i></a></li>
+        </ul>
       </div>
       <p class="text-center">Copyright (c) 2020 Hands that Help All Rights Reserved.</p>
     <!-- Optional JavaScript -->
